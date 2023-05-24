@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes externas</title>
+    <style>
+        @font-face {
+            font-family:'valentine';
+            src: url(fontes/Valentine.otf)format(opentype), url(fontes/Valentine.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /*
+        tipos de fomatos()
+        opentype (otf)
+        truetype(ttf)
+        embedded-opentype
+        truetype-aat(apple advanced typography)
+        svg
+        */
+        body{
+            font-family: 'valentine',Arial, Helvetica, sans-serif;
+            font-size: 2em;
+        }
+        h1{
+            font-family: 'valentine', Geneva, Tahoma, sans-serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>titulo</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta illo autem nisi quaerat esse dignissimos temporibus tenetur numquam, deserunt minima cum obcaecati repellat omnis! Dicta, quod ut hic accusantium id animi eveniet in consectetur maiores vero totam iusto, exercitationem repellat aut recusandae illo maxime ipsam et similique repudiandae asperiores inventore?</p>   
+</body>
+</html>

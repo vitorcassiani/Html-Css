@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(truetype);
+    font-weight: lighter;
+    font-style: normal;
+}
+body {
+    background-color: #E9E6C3;
+    margin: 0px;
+}
+header {
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(to bottom,#279A59,#06411E);
+    color: white;
+}
+h1 {
+    font-family:'Bebas Neue', sans-serif;
+    margin: 0px;
+    font-size: 2.5em;
+    font-weight: lighter;
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+}
+header > p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+}
+
+nav > a {
+    color: rgba(255, 255, 255, 0.801);
+    text-decoration: none;
+    padding: 10px;
+}
+nav > a:hover {
+    background-color: #24814e;
+}
+main {
+    width: 840px;
+    height: 100%;
+    margin: 0px auto;
+    background-color: white;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.575);
+    border-radius: 0px 0px 20px 15px;
+}
+section {
+    margin: 0px 20px;
+}
+h2 {
+    margin: 0px;
+    font-family:'idroid',Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: 20px 0px;
+    color: #284839;
+}
+p{
+    text-align: justify;
+    margin: 0px;
+    text-indent: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    font-family:'idroid',Arial, Helvetica, sans-serif;
+    color: #284839;
+    font-weight: lighter;
+    background-image: linear-gradient(to right,#85DFAC, #ffffff);
+}
+.paragrafo1 {
+    color: #305043;
+    text-decoration: none;
+    font-weight: bold;
+}
+.paragrafo2 {
+    background-color: #89DDB1;
+    text-decoration: none;
+    color: #0A612D;
+}
+.paragrafo2::after {
+    content: "🔗";
+}
+a#link1 {
+    color: #305043;
+    text-decoration: none;
+    font-weight: bold;
+}
+a#link2 {
+    color: #305043;
+    text-decoration: none;
+    font-weight: bold;
+}
+a#link3 {
+    color: #305043;
+    text-decoration: none;
+    font-weight: bold;
+}
+a#link3::after {
+    content: "🔗";
+}
+#imagem1 {
+    padding: 0px 255px;
+}
+iframe {
+    padding: 30px 50px;
+    margin: 0px;
+    background-color: #1A5C38;
+}
+#p1 {
+    background-color: #2FA866;
+    color: white;
+    margin: 10px 0px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+#final1 {
+    color: #305043;
+    text-decoration: none;
+    font-weight: bold;
+}
+#final1::after {
+    content: "🔗";
+}
+#final2 {
+    color: #305043;
+    text-decoration: none;
+    font-weight: bold;
+}
+#artigo1 {
+    background-color: #C5EBD6;
+    border-radius: 10px;
+}
+#artigo1 > p {
+    padding: 10px 10px 10px 10px;
+}
+li::before{
+    content: "✔️";
+}
+div {
+    display: inline-block;
+}
+#lista2{
+    padding: 0px 100px;
+}
+p#p2 {
+    padding: 10px 0px 35px 0px;
+}
+footer {
+    background-color: #1A5C38;
+    color: white;
+    margin-top: 20px;
+}
+footer > p {
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+    /*media query para impressora*/
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+html , body {
+    font-family: 'Courier New', Courier, monospace;
+}
+header > menu {
+    display: none;
+}
+main::after {
+    content: "esse site foi criado pelo CursoemVideo e desenvolvido por Vitor Henrique Cassiani";
+}
+article {
+    width: 100%;
+}

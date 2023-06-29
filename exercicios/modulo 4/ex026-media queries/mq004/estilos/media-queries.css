@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+    
+    
+@media print /*tela para impressão*/ {
+    html ,body {
+        width: 100vw;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main >h1 {
+        color: black;
+        text-shadow: none;
+    }
+    main::after {
+        content: 'essa impressão foi criada por Vitor Henrique Cassiani para CursoEmVideo';
+    }
+
+    img#imp {
+        display: block;
+    }
+    img#table {display: none;}
+    img#pc {display: none;}
+    img#cel {display: none;}
+    img#tv {display: none;}
+}
+@media screen and (min-width : 769px) and (max-width :  1024px) /*tela para tablets*/ {
+    html{
+        background-image: url(../imagens/back-tablet.jpg);
+
+    }
+    img#table {
+        display: block;
+    }    
+    img#pc {display: none;}
+    img#imp {display: none;}
+    img#cel {display: none;}
+    img#tv {display: none;}
+}
+
+@media screen and (min-width : 1025px) and (max-width : 1200px) /*tela computador*/ {
+    html {
+        background-image: url(../imagens/back-pc.jpg);
+
+        }
+    img#pc {
+       display: block;
+
+    }   
+
+    img#imp {display: none;}
+    img#cel {display: none;}
+    img#tv {display: none;}
+}
+@media screen and (min-width : 1201px) /*tela televisão*/{
+    html {
+        background-image: url(../imagens/back-tv.jpg);
+
+    }
+    img#tv {
+        display: block;
+ 
+     }   
+ 
+     img#imp {display: none;}
+     img#cel {display: none;}
+     img#pc {display: none;}
+ }
+

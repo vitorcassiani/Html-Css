@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width : 769px) and (max-width : 1024px)">
+   <link rel="stylesheet" href="estilos/computador.css" media="screen and (min-width : 1025px)">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section>
+                <img src="imagens/metal.jpg" alt="imagem metal">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <div id="campoemail">
+                    <label for="email"><i class="material-icons">person</i></label>
+                    <input type="email" name="email" id="email" autocomplete="email" required maxlength="30" placeholder="seu e-mail">
+                </div>
+                <div id="camposenha">
+                    <label for="senha"><i class="material-icons">vpn_key</i></label>
+                    <input type="password" name="senha" id="senha" placeholder="sua senha">
+                </div>
+                    <input type="submit" value="Entrar" class="botao" id="entrar">
+                    <a href="esqueciasenha.html"><input type="button" value="Esqueci a senha" class="botao" id="esqueci"></a>
+                
+            </form>
+        </section>
+    </main>
+</body>
+</html>

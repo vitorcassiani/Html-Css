@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*telap ara tablets*/
+
+body {
+    background-image: linear-gradient(to bottom,#5E2F83,#4B999C);
+}
+section > img {
+    display: none;
+}
+section {
+    width: 60vw;
+    height: 300px;
+}
+div#camposenha {
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+div#campoemail {
+    width: 95%;
+}

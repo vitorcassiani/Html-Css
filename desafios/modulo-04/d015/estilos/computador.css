@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*estilos para computador*/
+body {
+    background-image: linear-gradient(to bottom,#5E2F83,#4B999C);
+}
+
+section > img {
+    display: none;
+}
+section {
+    height: 350px;
+    width: 600px;
+}
+section > h1 {
+    font-size: 2em;
+}
+section > p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+div#camposenha {
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+div#campoemail {
+    width: 95%;
+}

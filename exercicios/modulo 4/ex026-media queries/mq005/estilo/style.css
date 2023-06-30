@@ -16,8 +16,19 @@ header h1 {
     padding: 10px;
     text-align: center;
 }
-nav {
+i#burger {
     display: block;
+    background-color: rgb(68, 67, 67);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+i#burger:hover {
+    background-color: black;
+}
+nav {
+    display: none;
 }
 
 van > ul {
